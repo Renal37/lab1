@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>О нас - НЕ обман точка ru</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #35424a;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+            background-color: #ffffff;
+        }
+
+        .left, .right {
+            flex: 1;
+            min-width: 300px;
+            padding: 20px;
+        }
+
+        .left {
+            max-width: 60%;
+        }
+
+        .left h1 {
+            color: #35424a;
+        }
+
+        .left p {
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .right img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        @media (max-width: 768px) {
+            main {
+                flex-direction: column;
+            }
+
+            footer {
+                position: relative;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>НЕ обман точка ru</h1>
+        <nav>
+            <a href="/">Главная</a>
+            <a href="#">О нас</a>
+            <a href="/contacts">Контакты</a>
+        </nav>
+    </header>
+    <main>
+        <div class="left">
+            <h1>О нас</h1>
+            <p>Добро пожаловать на сайт "НЕ обман точка ru"! Мы — команда профессионалов, которые стремятся предоставлять честные и прозрачные услуги нашим клиентам. Наши главные ценности — это доверие, качество и надежность.</p>
+            <p>Мы используем современные технологии и инновационные подходы, чтобы помочь вам в достижении ваших целей. Наша миссия — улучшать жизнь людей через предоставление качественных услуг и продуктов, которые действительно работают.</p>
+            <p>Наша команда состоит из экспертов в различных областях, и мы постоянно стремимся к совершенствованию. Присоединяйтесь к нам, и давайте строить будущее вместе!</p>
+        </div>
+        <div class="right">
+            <img src="https://avatars.mds.yandex.net/i?id=e75564b469231f54ecfe8270a6e4a47cb6b8b993-9030085-images-thumbs&n=13" alt="Наша команда">
+        </div>
+    </main>
+    <footer>
+        &copy; 2024 НЕ обман точка ru. Все права защищены.
+    </footer>
+</body>
+</html>
